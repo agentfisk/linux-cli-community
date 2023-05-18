@@ -54,6 +54,8 @@ auth-user-pass
 pull
 fast-io
 pull-filter ignore "redirect-gateway"
+script-security 2
+up "/home/pi/scripts/deluge-vpn/link_up_user_filter.sh"
 
 {%- if ipv6_disabled %}
 
